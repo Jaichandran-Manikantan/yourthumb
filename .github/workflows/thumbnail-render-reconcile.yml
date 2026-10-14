@@ -1,0 +1,9 @@
+name: TRADE_SECRET - private thumbnail-render-reconcile workflow redacted
+on:
+  workflow_dispatch:
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Explain redaction
+        run: echo "TRADE_SECRET: production thumbnail-render workflow is hosted privately; this placeholder does no rendering."

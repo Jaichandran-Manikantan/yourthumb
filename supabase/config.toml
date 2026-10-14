@@ -1,0 +1,4 @@
+project_id = "yourthumb-app"
+
+[functions.qstash-worker]
+verify_jwt = false

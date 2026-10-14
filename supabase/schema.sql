@@ -1,0 +1,3 @@
+-- TRADE_SECRET: Production schema, RPC definitions, RLS policies, and billing ledger details are not included.
+-- This public repository forwards application API requests to the hosted YourThumb backend.
+-- Do not use this placeholder to initialize or modify a database.

@@ -1,0 +1,2 @@
+# yourthumb
+AI Thumbnail Designer

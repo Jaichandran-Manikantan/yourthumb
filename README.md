@@ -4,6 +4,14 @@ YourThumb is an AI-assisted YouTube thumbnail production studio. This repository
 
 **Live product:** https://yourthumb.tech/
 
+## Readiness status — important
+
+This ZIP is a **sanitized public-source export**, not the full production codebase. It is useful for inspecting the real frontend and its official-host API integration, but it is **not a self-contained, end-to-end backend repository**. Several core generation, rendering, database, payment, webhook, and OAuth implementations are intentionally absent. The API proxy forwards many workflows to `https://yourthumb.tech`.
+
+Do not describe this package as the complete backend or submit it to a competition that requires all core implementation code to be public and runnable. For Galuxium Nexus V2 specifically, there is an additional eligibility issue: YourThumb existed before this event, while the event rules/organizer clarification prohibit previously built projects. A code cleanup does not make the existing project eligible. The organizer has stated that previously built or previously submitted projects are ineligible. The discussion also contains build-window dates that conflict with the current October 31, 2026 deadline, so obtain written clarification on the allowed build period before starting a different project.
+
+Run the static gate with `npm run preflight`. It deliberately exits with a failure status while core implementations remain redacted. It is a diagnostic, not a substitute for runtime tests, security review, or hackathon rule confirmation. `npm run typecheck` is also provided as a standard TypeScript check.
+
 ## What this repository contains
 
 - The actual homepage, dashboard, sign-in UI, thumbnail intake workflow, and reusable components from the project.
